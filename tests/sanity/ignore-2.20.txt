@@ -14,7 +14,6 @@ plugins/modules/volume_metadata_info.py validate-modules:missing-gplv3-license
 plugins/modules/import_flavor.py validate-modules:missing-gplv3-license
 plugins/modules/create_heat_stack.py validate-modules:missing-gplv3-license
 plugins/modules/generate_heat_template.py validate-modules:missing-gplv3-license
-# This, is removed by the clean-build-prod in the Makefile
 plugins/modules/src/module_dispatcher/module_dispatcher.go validate-modules:invalid-extension
 plugins/modules/src/module_dispatcher/module_dispatcher.go validate-modules:missing-gplv3-license
 plugins/modules/src/best_match_flavor/best_match_flavor.go validate-modules:invalid-extension
